@@ -1,0 +1,130 @@
+.nav-links li a{
+	color: #777;
+	/*font-family: */
+	text-transform: uppercase;
+	letter-spacing: 1.2px;
+	font-size: 13px;
+	/*line-height: 17px;*/
+	font-size: 14px;
+	font-weight: 350;
+}
+.navbar-holder{
+	animation-name: loadAnim;
+	animation-duration: 1.5s;
+	animation-delay: .8s;
+
+}
+a{
+	text-decoration: none;
+	color: red;
+}
+.background-image1{
+	opacity: .7;
+}
+.background-image1>img{
+	/*opacity: .7;*/
+	background-color: red;
+}
+@keyframes loadAnim{
+	0%{top: 50px}
+	100%{top: 1px}
+}
+
+.brand-logo img{
+	height: 29px;
+
+}
+.box-1, .box2{
+	padding: 20px;
+}
+
+.box-1Col{
+	padding-left: 0 !important;
+}
+.drag-target{
+	display: none;
+}
+
+.ttPadding{
+	padding-top: 15px;
+}
+.first-row{
+	display: flex;
+	justify-content: space-around;
+}
+
+.last-in-first-row{
+	/*margin-left: auto;*/
+	padding-left: 50px;
+}
+
+@media(min-width: 786px){
+	.last-in-first-row{
+		padding-top: 20px;
+		padding-left: 60px;
+	}
+}
+
+.slider{
+	border-bottom: 2px solid red;
+}
+.MainNav{
+
+	background-color: white;
+	border-bottom: 0.6px solid #dbdbdb;
+	box-shadow: 0 0 0 white;
+
+}
+.upperNav{
+	height: 25px;
+	width: 100%;
+	background-color: white;
+	border: none;
+}
+
+
+.upperUl{
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 20px;
+}
+.upperUl>li{
+	padding: 0 10px 10px 10px;
+}
+.UpperLinkLast{
+	margin-right: 20px;
+}
+
+.carousel-image-1{
+	position: relative;
+}
+.carousel-content{
+	position: absolute;
+}
+
+.carousel-item{
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+.upperLinks>a{
+	font-size: 11px;
+	color: black;
+}
+
+.myContainer{
+	margin: 0 60px 0 60px;
+}
+
+@media only screen and (min-width: 1000px) {
+	.brand-logo{
+		/*border: 1px solid red;*/
+		margin-left: 40px;
+	}
+	.secondLastLi{
+		margin-right: 60px;
+	}
+}
+

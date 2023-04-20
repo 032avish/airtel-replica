@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Airtel Mobile Recharge</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/packs.css">
+</head>
+<body>
+	<div class="container">
+		<header>
+			<h1>Airtel Mobile Recharge</h1>
+		</header>
+
+		<main>
+			<form action="payment.html" method="post">
+				<label for="mobile-number">Enter Mobile Number:</label>
+				<input type="tel" id="mobile-number" name="mobile-number" pattern="[0-9]{10}" required>
+				<label for="recharge-amount">Enter Recharge Amount:</label>
+				<input type="number" id="recharge-amount" name="recharge-amount" min="10" required>
+                <input type="submit" value="Recharge" onclick="window.location.href='payment.html'">
+		    </form>
+			
+			<div class="recharge-packs">
+				
+                <div class="pack">
+                    <h2 class="pack-title">Rs. 149 Pack</h2>
+                    <p class="pack-price">Price: Rs. 149</p>
+                    <p class="pack-validity">Validity: 28 Days</p>
+                </div>
+                <div class="pack">
+                    <h2 class="pack-title">Rs. 199 Pack</h2>
+                    <p class="pack-price">Price: Rs. 199</p>
+                    <p class="pack-validity">Validity: 30 Days</p>
+                </div>
+                <div class="pack">
+                    <h2 class="pack-title">Rs. 249 Pack</h2>
+                    <p class="pack-price">Price: Rs. 249</p>
+                    <p class="pack-validity">Validity: 28 Days</p>
+                </div>
+                <div class="pack">
+                    <h2 class="pack-title">Rs. 399 Pack</h2>
+                    <p class="pack-price">Price: Rs. 399</p>
+                    <p class="pack-validity">Validity: 56 Days</p>
+                </div>
+                <div class="pack">
+                    <h2 class="pack-title">Rs. 449 Pack</h2>
+                    <p class="pack-price">Price: Rs. 449</p>
+                    <p class="pack-validity">Validity: 56 Days</p>
+                </div>
+                <div class="pack">
+                    <h2 class="pack-title">Rs. 558 Pack</h2>
+                    <p class="pack-price">Price: Rs. 558</p>
+                    <p class="pack-validity">Validity: 56 Days</p>
+                </div>
+                <div class="pack">
+                    <h2 class="pack-title">Rs. 599 Pack</h2>
+                    <p class="pack-price">Price: Rs. 599</p>
+                    <p class="pack-validity">Validity: 84 Days</p>
+                </div>
+                <div class="pack">
+                    <h2 class="pack-title">Rs. 698 Pack</h2>
+                    <p class="pack-price">Price: Rs. 698</p>
+                    <p class="pack-validity">Validity: 84 Days</p>
+                </div>
+                <div class="pack">
+                    <h2 class="pack-title">Rs. 1498 Pack</h2>
+                    <p class="pack-price">Price: Rs. 1498</p>
+                    <p class="pack-validity">Validity: 365 Days</p>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
